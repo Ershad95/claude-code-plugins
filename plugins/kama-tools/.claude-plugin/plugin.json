@@ -1,0 +1,5 @@
+{
+  "name": "kama-tools",
+  "description": "Kama security toolkit: prebuilt executables and slash commands to encrypt and decrypt #KamaEncryption# config values, decrypt whole appsettings files, and hash passwords, API keys and OTPs. Windows x64, needs the .NET 10 runtime.",
+  "version": "1.1.0"
+}

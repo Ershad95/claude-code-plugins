@@ -1,4 +1,3 @@
-
 {
   "name": "ershad-marketplace",
   "owner": {
@@ -10,6 +9,12 @@
       "source": "./plugins/backend-skills",
       "description": "Reusable backend development skills",
       "version": "1.0.0"
+    },
+    {
+      "name": "kama-tools",
+      "source": "./plugins/kama-tools",
+      "description": "Encrypt/decrypt #KamaEncryption# config secrets, decrypt appsettings per environment, and hash passwords, API keys and OTPs (Windows x64, .NET 10)",
+      "version": "1.1.0"
     }
   ]
 }
