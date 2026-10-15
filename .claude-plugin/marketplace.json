@@ -1,0 +1,15 @@
+
+{
+  "name": "ershad-marketplace",
+  "owner": {
+    "name": "Ershad"
+  },
+  "plugins": [
+    {
+      "name": "backend-skills",
+      "source": "./plugins/backend-skills",
+      "description": "Reusable backend development skills",
+      "version": "1.0.0"
+    }
+  ]
+}
