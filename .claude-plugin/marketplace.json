@@ -15,6 +15,12 @@
       "source": "./plugins/kama-tools",
       "description": "Encrypt/decrypt #KamaEncryption# config secrets, decrypt appsettings per environment, and hash passwords, API keys and OTPs (Windows x64, .NET 10)",
       "version": "1.1.0"
+    },
+    {
+      "name": "redis-tools",
+      "source": "./plugins/redis-tools",
+      "description": "Redis MCP server (stdio) for agents: info, SCAN key search, type-aware key reads, slowlog, clients, config, guarded raw commands. Read-only unless REDIS_ALLOW_WRITES=1 (Node.js 20+)",
+      "version": "1.0.0"
     }
   ]
 }

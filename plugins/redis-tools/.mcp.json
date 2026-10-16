@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "redis": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/dist/index.js"],
+      "env": {
+        "REDIS_URL": "${REDIS_URL:-redis://localhost:6379/0}",
+        "REDIS_USERNAME": "${REDIS_USERNAME:-}",
+        "REDIS_PASSWORD": "${REDIS_PASSWORD:-}",
+        "REDIS_ALLOW_WRITES": "${REDIS_ALLOW_WRITES:-0}"
+      }
+    }
+  }
+}

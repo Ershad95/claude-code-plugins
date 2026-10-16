@@ -1,0 +1,5 @@
+{
+  "name": "redis-tools",
+  "description": "Redis MCP server (stdio) for agents: server info, SCAN-based key search, type-aware key reads, slowlog, clients, config and a guarded raw command tool. Read-only unless REDIS_ALLOW_WRITES=1. Needs Node.js 20+.",
+  "version": "1.0.0"
+}
